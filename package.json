@@ -1,0 +1,15 @@
+{
+  "name": "test-package-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo test >> test",
+    "prepare": "echo prepare >> prepare",
+    "postinstall": "echo postinstall >> postinstall",
+    "prepublish": "echo prepublish >> prepublish",
+    "prepublishOnly": "echo prepublishOnly >> prepublishOnly",
+    "prepack": "echo prepack >> prepack",
+    "postpack": "echo postpack >> postpack"
+  }
+}
